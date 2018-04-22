@@ -1,0 +1,223 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/chendrickse/.nvm/versions/node/v6.10.0/bin/node',
+1 verbose cli   '/Users/chendrickse/.nvm/versions/node/v6.10.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'sass-loader',
+1 verbose cli   'node-sass',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData sass-loader
+8 silly fetchPackageMetaData node-sass
+9 silly fetchNamedPackageData sass-loader
+10 silly mapToRegistry name sass-loader
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'sass-loader',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'sass-loader',
+13 silly mapToRegistry   name: 'sass-loader',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader
+15 silly fetchNamedPackageData node-sass
+16 silly mapToRegistry name node-sass
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'node-sass',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: 'node-sass',
+19 silly mapToRegistry   name: 'node-sass',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/node-sass
+21 verbose request uri http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 9:01:23 PM
+24 verbose request id c7508ca2eec268e8
+25 verbose etag 784864ebf4e107ce5972f474dc59b373a245986b
+26 http request GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader
+27 verbose request uri http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/node-sass
+28 verbose request no auth needed
+29 info attempt registry request try #1 at 9:01:23 PM
+30 verbose etag aed281c232bb9f426a7fc281763997bee8a66973
+31 http request GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/node-sass
+32 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+33 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+34 info attempt registry request try #2 at 9:01:33 PM
+35 verbose etag aed281c232bb9f426a7fc281763997bee8a66973
+36 http request GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/node-sass
+37 info attempt registry request try #2 at 9:01:33 PM
+38 verbose etag 784864ebf4e107ce5972f474dc59b373a245986b
+39 http request GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader
+40 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+41 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+42 info attempt registry request try #3 at 9:02:33 PM
+43 verbose etag aed281c232bb9f426a7fc281763997bee8a66973
+44 http request GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/node-sass
+45 info attempt registry request try #3 at 9:02:33 PM
+46 verbose etag 784864ebf4e107ce5972f474dc59b373a245986b
+47 http request GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader
+48 silly get cb [ 304, undefined ]
+49 verbose etag http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/node-sass from cache
+50 verbose get saving node-sass to /Users/chendrickse/.npm/build-repo-dc2.prod.impello.co.uk_8081/artifactory/api/npm/npm-virtual/node-sass/.cache.json
+51 verbose correctMkdir /Users/chendrickse/.npm correctMkdir not in flight; initializing
+52 silly get cb [ 304, undefined ]
+53 verbose etag http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader from cache
+54 verbose get saving sass-loader to /Users/chendrickse/.npm/build-repo-dc2.prod.impello.co.uk_8081/artifactory/api/npm/npm-virtual/sass-loader/.cache.json
+55 verbose correctMkdir /Users/chendrickse/.npm correctMkdir already in flight; waiting
+56 silly install normalizeTree
+57 silly loadCurrentTree Finishing
+58 silly loadIdealTree Starting
+59 silly install loadIdealTree
+60 silly cloneCurrentTree Starting
+61 silly install cloneCurrentTreeToIdealTree
+62 silly cloneCurrentTree Finishing
+63 silly loadShrinkwrap Starting
+64 silly install loadShrinkwrap
+65 silly loadShrinkwrap Finishing
+66 silly loadAllDepsIntoIdealTree Starting
+67 silly install loadAllDepsIntoIdealTree
+68 silly resolveWithNewModule sass-loader@6.0.7 checking installable status
+69 silly cache add args [ 'sass-loader', null ]
+70 verbose cache add spec sass-loader
+71 silly resolveWithNewModule node-sass@4.8.3 checking installable status
+72 silly cache add args [ 'node-sass', null ]
+73 verbose cache add spec node-sass
+74 silly cache add parsed spec Result {
+74 silly cache add   raw: 'sass-loader',
+74 silly cache add   scope: null,
+74 silly cache add   escapedName: 'sass-loader',
+74 silly cache add   name: 'sass-loader',
+74 silly cache add   rawSpec: '',
+74 silly cache add   spec: 'latest',
+74 silly cache add   type: 'tag' }
+75 silly addNamed sass-loader@latest
+76 verbose addNamed "latest" is being treated as a dist-tag for sass-loader
+77 info addNameTag [ 'sass-loader', 'latest' ]
+78 silly mapToRegistry name sass-loader
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: 'sass-loader',
+81 silly mapToRegistry   scope: null,
+81 silly mapToRegistry   escapedName: 'sass-loader',
+81 silly mapToRegistry   name: 'sass-loader',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag' }
+82 silly mapToRegistry uri http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader
+83 verbose addNameTag registry:http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader not in flight; fetching
+84 silly cache add parsed spec Result {
+84 silly cache add   raw: 'node-sass',
+84 silly cache add   scope: null,
+84 silly cache add   escapedName: 'node-sass',
+84 silly cache add   name: 'node-sass',
+84 silly cache add   rawSpec: '',
+84 silly cache add   spec: 'latest',
+84 silly cache add   type: 'tag' }
+85 silly addNamed node-sass@latest
+86 verbose addNamed "latest" is being treated as a dist-tag for node-sass
+87 info addNameTag [ 'node-sass', 'latest' ]
+88 silly mapToRegistry name node-sass
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual
+91 silly mapToRegistry data Result {
+91 silly mapToRegistry   raw: 'node-sass',
+91 silly mapToRegistry   scope: null,
+91 silly mapToRegistry   escapedName: 'node-sass',
+91 silly mapToRegistry   name: 'node-sass',
+91 silly mapToRegistry   rawSpec: '',
+91 silly mapToRegistry   spec: 'latest',
+91 silly mapToRegistry   type: 'tag' }
+92 silly mapToRegistry uri http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/node-sass
+93 verbose addNameTag registry:http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/node-sass not in flight; fetching
+94 verbose get http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader not expired, no request
+95 silly addNameTag next cb for sass-loader with tag latest
+96 silly addNamed sass-loader@6.0.7
+97 verbose addNamed "6.0.7" is a plain semver version for sass-loader
+98 verbose get http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/node-sass not expired, no request
+99 silly addNameTag next cb for node-sass with tag latest
+100 silly addNamed node-sass@4.8.3
+101 verbose addNamed "4.8.3" is a plain semver version for node-sass
+102 silly mapToRegistry name sass-loader
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual
+105 silly mapToRegistry data Result {
+105 silly mapToRegistry   raw: 'sass-loader',
+105 silly mapToRegistry   scope: null,
+105 silly mapToRegistry   escapedName: 'sass-loader',
+105 silly mapToRegistry   name: 'sass-loader',
+105 silly mapToRegistry   rawSpec: '',
+105 silly mapToRegistry   spec: 'latest',
+105 silly mapToRegistry   type: 'tag' }
+106 silly mapToRegistry uri http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader
+107 verbose addRemoteTarball http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz not in flight; adding
+108 verbose addRemoteTarball [ 'http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz',
+108 verbose addRemoteTarball   'dd2fdb3e7eeff4a53f35ba6ac408715488353d00' ]
+109 info retry fetch attempt 1 at 9:02:35 PM
+110 info attempt registry request try #1 at 9:02:35 PM
+111 http fetch GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz
+112 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+113 silly cache afterAdd node-sass@4.8.3
+114 verbose afterAdd /Users/chendrickse/.npm/node-sass/4.8.3/package/package.json not in flight; writing
+115 verbose correctMkdir /Users/chendrickse/.npm correctMkdir not in flight; initializing
+116 verbose afterAdd /Users/chendrickse/.npm/node-sass/4.8.3/package/package.json written
+117 info attempt registry request try #2 at 9:02:45 PM
+118 http fetch GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz
+119 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+120 info attempt registry request try #3 at 9:03:45 PM
+121 http fetch GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz
+122 error fetch failed http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz
+123 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+124 info retry fetch attempt 2 at 9:03:55 PM
+125 info attempt registry request try #1 at 9:03:55 PM
+126 http fetch GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz
+127 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+128 info attempt registry request try #2 at 9:04:05 PM
+129 http fetch GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz
+130 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+131 info attempt registry request try #3 at 9:05:05 PM
+132 http fetch GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz
+133 error fetch failed http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz
+134 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+135 info retry fetch attempt 3 at 9:06:05 PM
+136 info attempt registry request try #1 at 9:06:05 PM
+137 http fetch GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz
+138 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+139 info attempt registry request try #2 at 9:06:15 PM
+140 http fetch GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz
+141 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+142 info attempt registry request try #3 at 9:07:15 PM
+143 http fetch GET http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz
+144 error fetch failed http://build-repo-dc2.prod.impello.co.uk:8081/artifactory/api/npm/npm-virtual/sass-loader/-/sass-loader-6.0.7.tgz
+145 silly rollbackFailedOptional Starting
+146 silly rollbackFailedOptional Finishing
+147 silly runTopLevelLifecycles Finishing
+148 silly install printInstalled
+149 verbose stack Error: getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+149 verbose stack     at errnoException (dns.js:28:10)
+149 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+150 verbose cwd /Users/chendrickse/Documents/repos/my-app
+151 error Darwin 14.5.0
+152 error argv "/Users/chendrickse/.nvm/versions/node/v6.10.0/bin/node" "/Users/chendrickse/.nvm/versions/node/v6.10.0/bin/npm" "install" "sass-loader" "node-sass" "--save-dev"
+153 error node v6.10.0
+154 error npm  v3.10.10
+155 error code ENOTFOUND
+156 error errno ENOTFOUND
+157 error syscall getaddrinfo
+158 error network getaddrinfo ENOTFOUND build-repo-dc2.prod.impello.co.uk build-repo-dc2.prod.impello.co.uk:8081
+159 error network This is most likely not a problem with npm itself
+159 error network and is related to network connectivity.
+159 error network In most cases you are behind a proxy or have bad network settings.
+159 error network
+159 error network If you are behind a proxy, please make sure that the
+159 error network 'proxy' config is set properly.  See: 'npm help config'
+160 verbose exit [ 1, true ]
